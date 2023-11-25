@@ -3,7 +3,7 @@ git config --global user.email "zabzulorbit@gmail.com"
 git init
 git remote origin git@github.com:zabzulorbit/react-portofolio.git
 git add .
-git commit -m "Komit Pertama"
+git commit -m "Komit Kedua"
 git branch -M main
-git push -u origin main
+git push origin main
 coba
