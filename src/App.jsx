@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+// import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Navbar from './Components/navbar';
 import Card from './Components/card';
 import Projects from './Components/projects';
@@ -14,8 +14,8 @@ const App = () => {
       <Navbar/>
       <Card/>
       <Projects/> 
-      {/* <About/> */}
-      {/* <Test/> */}
+      <About/> 
+      <Test/>
     </div>
   );
 };
