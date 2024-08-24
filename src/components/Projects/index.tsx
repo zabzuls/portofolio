@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <div className="bg-[#E8E3DE] p-10  mx-40 mt-10">
+    <div id="projects-link" className="bg-[#E8E3DE] p-10  mx-40 mt-10">
       <h1 className="text-3xl uppercase text-center">Projects</h1>
       <div className="flex space-x-36 justify-center mt-10">
         {

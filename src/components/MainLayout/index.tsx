@@ -8,7 +8,7 @@ type MainLayoutProps = PropsWithChildren<{}>;
 export default function MainLayout({ children }: MainLayoutProps) {
   return (
     <>
-      <div className="h-screen w-screen bg-[#FAF9F8] -z-50">
+      <div id="home-link" className="h-screen w-screen bg-[#FAF9F8] -z-50">
         <Navbar />
         <Header />
         <Projects />
