@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between px-36 pt-12 text-[20px] text-[#000000] uppercase">
       <ul>
-        <li className="font-bold">Zabzul Supratman</li>
+        <li className="font-bold">Zull-Portofolio 🧑‍💻</li>
       </ul>
       <ul className="flex space-x-6">
         <Link href="#home-link" className={colorUL}>
