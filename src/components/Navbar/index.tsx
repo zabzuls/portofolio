@@ -19,8 +19,8 @@ export default function Navbar() {
         <Link href="#contact-link" className={colorUL}>
           Contact
         </Link>
-        <Link href="#about-link" className={colorUL}>
-          About
+        <Link href="/About" className={colorUL}>
+          CV
         </Link>
       </ul>
     </nav>
