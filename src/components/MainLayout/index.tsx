@@ -2,6 +2,8 @@ import React, { PropsWithChildren } from "react";
 import Navbar from "../Navbar";
 import Header from "../Header";
 import Projects from "../Projects";
+import Certificate from "../Certificate";
+import Footer from "../Footer";
 
 type MainLayoutProps = PropsWithChildren<{}>;
 
@@ -12,6 +14,8 @@ export default function MainLayout({ children }: MainLayoutProps) {
         <Navbar />
         <Header />
         <Projects />
+        <Certificate/>
+        <Footer/>
       </div>
     </>
   );
